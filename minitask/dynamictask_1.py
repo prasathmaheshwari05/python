@@ -101,3 +101,13 @@ print(Menu)
 Menu[4:]='Tandoori roti','naan'
 print(Menu)
 
+#
+i=123
+add=0
+while(i!=0):
+    ld=i%10
+    add=add+ld
+    i=i//10
+print(add)
+
+
