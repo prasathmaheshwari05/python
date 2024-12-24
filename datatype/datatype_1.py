@@ -24,3 +24,4 @@ print("set",city,type(city))
 #dictionary
 city={1:"chennai",2:"mumbai",3:"pune"}
 print("dictionary",city,type(city))
+#
