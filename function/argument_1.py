@@ -1,17 +1,17 @@
-# def fullname(firstname,lastname,national='indian'):
-#     return f'name is {firstname} {lastname} your nationality {national}'
-# def main():
-#     result=fullname('prasath','sundararajan')
-#     print("position arugument:",result)
-#     result=fullname('prasath','sundararajan','maheswari')
-#     print("position arugument:",result)
-#     result=fullname(lastname='prasath',firstname='sundararajan')
-#     print("keyward arugument:",result)
-#     result=fullname('prasath','sundararajan',national='other')
-#     print("keyword arugument:",result)
+def fullname(firstname,lastname,national='indian'):
+    return f'name is {firstname} {lastname} your nationality {national}'
+def main():
+    result=fullname('prasath','sundararajan')
+    print("position arugument:",result)
+    result=fullname('prasath','sundararajan','maheswari')
+    print("position arugument:",result)
+    result=fullname(lastname='prasath',firstname='sundararajan')
+    print("keyward arugument:",result)
+    result=fullname('prasath','sundararajan',national='other')
+    print("keyword arugument:",result)
 
-# if __name__=="__main__":
-#     main()
+if __name__=="__main__":
+    main()
 
 
 def circle(pi,r):
